@@ -167,6 +167,9 @@ body {
 }
 .profile-logo {
     margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .profile-logo img {
     width: 80px;
