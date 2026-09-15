@@ -420,7 +420,7 @@ body {
     .profile {
         padding: 40px 0 32px;
     }
-    .profile-logo svg {
+    .profile-logo img {
         width: 96px;
         height: 96px;
     }
@@ -435,13 +435,16 @@ body {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
     body {
         background: linear-gradient(135deg, #f0fdfa 0%, #e0f2fe 100%);
     }
     body[data-theme="dark"] {
         background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
     }
+}
+
+@media (min-width: 1024px) {
 }
 
 /* Selection color */
