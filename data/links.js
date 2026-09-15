@@ -22,14 +22,6 @@ const links = [
         enabled: true
     },
     {
-        title: "UIS Community",
-        description: "Join our community",
-        url: "https://example.com",
-        icon: "users",
-        featured: false,
-        enabled: true
-    },
-    {
         title: "Viber Channel",
         description: "Chat with us on Viber",
         url: "https://invite.viber.com/?g2=AQBdweUQPICtpEgoYccSUekjF67N9gkMytwp7c3EHX5G8BbC40nKVlRHfbSJopeI",
@@ -62,10 +54,10 @@ const links = [
         enabled: true
     },
     {
-        title: "Tik Tok",
+        title: "TikTok",
         description: "Watch our videos",
         url: "https://www.tiktok.com/@uis.org",
-        icon: "link",
+        icon: "tiktok",
         featured: false,
         enabled: true
     },
@@ -73,7 +65,7 @@ const links = [
         title: "Telegram",
         description: "Subscribe us on Telegram",
         url: "https://t.me/uismv",
-        icon: "link",
+        icon: "telegram",
         featured: false,
         enabled: true
     },
@@ -81,14 +73,14 @@ const links = [
         title: "X",
         description: "Follow us on X",
         url: "https://x.com/uis_org",
-        icon: "link",
+        icon: "x",
         featured: false,
         enabled: true
     },
     {
         title: "WhatsApp",
         description: "Message us on WhatsApp",
-        url: "https://wa.me/1234567890",
+        url: "https://wa.me/+9607340432",
         icon: "message-square",
         featured: false,
         enabled: true
@@ -98,6 +90,14 @@ const links = [
         description: "Discover upcoming events",
         url: "#",
         icon: "calendar",
+        featured: false,
+        enabled: true
+    },
+    {
+        title: "UIS Community",
+        description: "Join our community",
+        url: "#",
+        icon: "users",
         featured: false,
         enabled: true
     },
