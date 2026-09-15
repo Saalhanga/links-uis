@@ -16,7 +16,7 @@ const links = [
     {
         title: "UIS Website",
         description: "Visit our official website",
-        url: "https://example.com",
+        url: "https://www.unitedislamicsociety.org/",
         icon: "globe",
         featured: true,
         enabled: true
@@ -30,9 +30,9 @@ const links = [
         enabled: true
     },
     {
-        title: "Viber Community",
+        title: "Viber Channel",
         description: "Chat with us on Viber",
-        url: "https://example.com",
+        url: "https://invite.viber.com/?g2=AQBdweUQPICtpEgoYccSUekjF67N9gkMytwp7c3EHX5G8BbC40nKVlRHfbSJopeI",
         icon: "message-circle",
         featured: false,
         enabled: true
@@ -40,7 +40,7 @@ const links = [
     {
         title: "Facebook",
         description: "Follow us on Facebook",
-        url: "https://www.facebook.com/",
+        url: "https://web.facebook.com/uis.org",
         icon: "facebook",
         featured: false,
         enabled: true
@@ -48,7 +48,7 @@ const links = [
     {
         title: "Instagram",
         description: "Follow us on Instagram",
-        url: "https://www.instagram.com/",
+        url: "https://www.instagram.com/uis_org",
         icon: "instagram",
         featured: false,
         enabled: true
@@ -56,15 +56,39 @@ const links = [
     {
         title: "YouTube",
         description: "Watch our videos",
-        url: "https://www.youtube.com/",
+        url: "https://www.youtube.com/@UISMedia",
         icon: "youtube",
+        featured: false,
+        enabled: true
+    },
+    {
+        title: "Tik Tok",
+        description: "Watch our videos",
+        url: "https://www.tiktok.com/@uis.org",
+        icon: "link",
+        featured: false,
+        enabled: true
+    },
+    {
+        title: "Telegram",
+        description: "Subscribe us on Telegram",
+        url: "https://t.me/uismv",
+        icon: "link",
+        featured: false,
+        enabled: true
+    },
+    {
+        title: "X",
+        description: "Follow us on X",
+        url: "https://x.com/uis_org",
+        icon: "link",
         featured: false,
         enabled: true
     },
     {
         title: "WhatsApp",
         description: "Message us on WhatsApp",
-        url: "https://wa.me/",
+        url: "https://wa.me/1234567890",
         icon: "message-square",
         featured: false,
         enabled: true
@@ -72,7 +96,7 @@ const links = [
     {
         title: "Events & Programs",
         description: "Discover upcoming events",
-        url: "https://example.com",
+        url: "#",
         icon: "calendar",
         featured: false,
         enabled: true
@@ -80,7 +104,7 @@ const links = [
     {
         title: "Join UIS",
         description: "Become a member",
-        url: "https://example.com",
+        url: "#",
         icon: "user-plus",
         featured: false,
         enabled: true
@@ -88,7 +112,7 @@ const links = [
     {
         title: "Contact UIS",
         description: "Get in touch",
-        url: "mailto:example@example.com",
+        url: "mailto:uis.org@gmail.com",
         icon: "mail",
         featured: false,
         enabled: true
