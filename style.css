@@ -173,6 +173,15 @@ body {
     height: 80px;
     object-fit: contain;
 }
+.profile-logo .logo-dark {
+    display: none;
+}
+[data-theme="dark"] .profile-logo .logo-light {
+    display: none;
+}
+[data-theme="dark"] .profile-logo .logo-dark {
+    display: block;
+}
 .profile-name {
     font-size: 1.5rem;
     font-weight: 700;
