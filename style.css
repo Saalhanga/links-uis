@@ -168,9 +168,10 @@ body {
 .profile-logo {
     margin-bottom: 16px;
 }
-.profile-logo svg {
+.profile-logo img {
     width: 80px;
     height: 80px;
+    object-fit: contain;
 }
 .profile-name {
     font-size: 1.5rem;
