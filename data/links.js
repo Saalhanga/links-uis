@@ -23,7 +23,7 @@ const links = [
     },
     {
         title: "Viber Channel",
-        description: "Chat with us on Viber",
+        description: "Subscribe us on Viber",
         url: "https://invite.viber.com/?g2=AQBdweUQPICtpEgoYccSUekjF67N9gkMytwp7c3EHX5G8BbC40nKVlRHfbSJopeI",
         icon: "message-circle",
         featured: false,
