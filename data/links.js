@@ -40,7 +40,7 @@ const links = [
     {
         title: "Facebook",
         description: "Follow us on Facebook",
-        url: "https://web.facebook.com/uis.org",
+        url: "https://www.facebook.com/uis.org",
         icon: "facebook",
         featured: false,
         enabled: true
