@@ -78,6 +78,14 @@ const links = [
         enabled: true
     },
     {
+        title: "UIS Radio",
+        description: "Listen Live from Internet",
+        url: "https://radio.unitedislamicsociety.org/",
+        icon: "volume",
+        featured: false,
+        enabled: true
+    },
+    {
         title: "WhatsApp",
         description: "Message us on WhatsApp",
         url: "https://wa.me/+9607340432",
@@ -118,3 +126,5 @@ const links = [
         enabled: true
     }
 ];
+
+
