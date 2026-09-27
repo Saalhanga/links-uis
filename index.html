@@ -47,6 +47,38 @@
         </span>
     </button>
 
+    <!-- Share Button -->
+    <button id="share-btn" class="share-btn" aria-label="Share this page" title="Share">
+        <span class="share-btn-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.42" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+        </span>
+    </button>
+
+    <!-- Share Modal -->
+    <div id="share-modal-overlay" class="share-modal-overlay" aria-hidden="true">
+        <div id="share-modal" class="share-modal" role="dialog" aria-modal="true" aria-labelledby="share-modal-title">
+            <button id="share-modal-close" class="share-modal-close" aria-label="Close share dialog">&times;</button>
+            <h2 id="share-modal-title" class="share-modal-title">Share this page</h2>
+            <div class="share-modal-actions">
+                <button id="share-copy-btn" class="share-action-btn">
+                    <span class="share-action-icon" aria-hidden="true">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    </span>
+                    <span class="share-action-label">Copy link</span>
+                </button>
+                <button id="share-qr-btn" class="share-action-btn">
+                    <span class="share-action-icon" aria-hidden="true">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+                    </span>
+                    <span class="share-action-label">Show QR code</span>
+                </button>
+            </div>
+            <div id="share-qr-container" class="share-qr-container" hidden>
+                <canvas id="share-qr-canvas"></canvas>
+            </div>
+        </div>
+    </div>
+
     <main id="main" class="container">
         <!-- Profile Section -->
         <header class="profile">
